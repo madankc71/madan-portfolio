@@ -39,27 +39,36 @@ const Home = () => (
         <div className="h-1 w-20 bg-primary mb-6"></div>
         <div className="space-y-4">
           <p className="text-xl text-gray-800 max-w-2xl leading-relaxed">
-            Hi, I am Madan K C. I have come up through steady, hands-on work in computer science, research, teaching, and industry. That path taught me to be careful, clear, and consistent.
-          </p>
+            Hi, I am Madan K C. I have a B.E. in Computer Engineering from Tribhuvan University (Nepal)
+            and an M.S. in Data Science & Analytics from Grand Valley State University (USA), with
+            training across core CS foundations, data science and statistical methods. I have worked across
+            research/teaching environments and hands-on engineering, and I value careful experimentation,
+            clear writing, and steady iteration.            </p>
           <p className="text-xl text-gray-800 max-w-2xl leading-relaxed">
-            Right now, I work on AI/ML with a strong backend focus. I build retrieval workflows, data/embedding pipelines, and service APIs, and I care about testing, reliability, and clear documentation. I like careful reading, small experiments, and writing things up clearly.
-          </p>
+            I am broadly interested in modern machine learning and GenAI, 
+            including both learning methods and the systems that use them in practice. 
+            I enjoy working end-to-end-from data preparation and modeling to evaluation and deployment, 
+            and I am especially motivated by research that studies model behavior carefully and improves it systematically.
+            </p>
           <p className="text-xl text-gray-800 max-w-2xl leading-relaxed">
-            I am applying for a PhD in Computer Science. I enjoy AI/ML and data-driven work, and I am also open to other core CS areas and interdisciplinary projects where solid methods and clear reasoning matter.
-          </p>
+            I am applying for a PhD in Computer Science and 
+            I am interested in collaborating with faculty in machine learning, AI, and GenAI.
+            I also enjoy data-driven research that combines solid methodology with real-world constraints, 
+            including interdisciplinary domains such as healthcare, privacy, and climate-related applications.
+            </p>
         </div>
 
         <div className="mt-6">
           <h3 className="text-lg font-semibold text-dark mb-2">Research Interests</h3>
           <ul className="list-disc pl-5 text-gray-800 space-y-2">
-            <li>Reliable, well-tested AI/ML systems</li>
-            <li>Evaluation and error analysis that lead to real improvements</li>
-            <li>Data and retrieval workflows used in practical settings</li>
-            <li>Interdisciplinary work that benefits from careful CS methodology</li>
-            <li>Open to other CS topics where I can learn and contribute</li>
+            <li>ML, AI, and GenAI systems</li>
+            <li>Computer vision and NLP</li>
+            <li>Evaluation, reliability, interpretability, responsible AI</li>
+            <li>Data-centric ML and applied data science</li>
+            <li>Reinforcement learning</li>
+            <li>Interdisciplinary research in other domains (healthcare, privacy, climate, agriculture and so on)</li>
           </ul>
         </div>
-        
       </div>
     </div>
   </section>

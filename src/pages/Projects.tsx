@@ -3,6 +3,12 @@ const Projects = () => (
   <h2 className="text-2xl font-semibold text-primary mb-4">PROJECTS</h2>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       <div className="section-card">
+        <h3 className="text-lg font-semibold text-dark mb-2">Agentic HR System - Reliable RAG Workflow for HR Knowledge</h3>
+        <p className="text-gray-800 mb-3">Developed an agentic HR platform using RAG, with ingestion/embedding pipelines, vector retrieval, and LangGraph workflows. Added logging and evaluation tools to trace failures and improve reliability.
+        </p>
+        <p className="text-sm text-gray-600"><strong>Tech Stack:</strong>Python, FastAPI, LangGraph, RAG, Vector DB, OpenAI</p>
+      </div>
+      <div className="section-card">
         <h3 className="text-lg font-semibold text-dark mb-2">Coral Reef Image Classification</h3>
         <p className="text-gray-800 mb-3">Trained a custom CNN to classify coral vs. non-coral images. Implemented convolutional layers, dropout, data augmentation, and validation/testing with GPU support.</p>
         <p className="text-sm text-gray-600"><strong>Tech Stack:</strong> PyTorch, CNN, ReLU, Adam optimizer, DataLoader, GPU training, data augmentation</p>
